@@ -7,15 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842F9452284653A600927D5F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F9451284653A600927D5F /* LoginViewController.swift */; };
+		84A7FB822847D25F0053A487 /* FunZone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FB802847D25F0053A487 /* FunZone.xcdatamodeld */; };
+		84A7FB872847D3700053A487 /* Music+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FB832847D3700053A487 /* Music+CoreDataClass.swift */; };
+		84A7FB882847D3700053A487 /* Music+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FB842847D3700053A487 /* Music+CoreDataProperties.swift */; };
+		84A7FB892847D3700053A487 /* Notes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FB852847D3700053A487 /* Notes+CoreDataClass.swift */; };
+		84A7FB8A2847D3700053A487 /* Notes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FB862847D3700053A487 /* Notes+CoreDataProperties.swift */; };
+		84A7FBF028480F2D0053A487 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FBEF28480F2D0053A487 /* SearchViewController.swift */; };
+		84A7FBF2284826B20053A487 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FBF1284826B20053A487 /* SignUpViewController.swift */; };
+		84A7FBF42848355F0053A487 /* BooksPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FBF32848355F0053A487 /* BooksPDFViewController.swift */; };
+		84A7FBF72848378C0053A487 /* book2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84A7FBF62848378C0053A487 /* book2.pdf */; };
+		84A7FBF92848379C0053A487 /* bookSample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84A7FBF82848379C0053A487 /* bookSample.pdf */; };
+		84A7FBFB284837C10053A487 /* book3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84A7FBFA284837C10053A487 /* book3.pdf */; };
+		84A7FBFD28483D540053A487 /* PlaySongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FBFC28483D540053A487 /* PlaySongViewController.swift */; };
+		84A7FC00284848280053A487 /* blake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7FBFF284848280053A487 /* blake.mp3 */; };
+		84A7FC03284855EE0053A487 /* SignUp+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FC01284855EE0053A487 /* SignUp+CoreDataClass.swift */; };
+		84A7FC04284855EE0053A487 /* SignUp+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FC02284855EE0053A487 /* SignUp+CoreDataProperties.swift */; };
+		84A7FC062848565D0053A487 /* SignUpDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FC052848565D0053A487 /* SignUpDBHelper.swift */; };
 		84B15878283ECBBE00EC00A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B15877283ECBBE00EC00A6 /* AppDelegate.swift */; };
 		84B1587A283ECBBE00EC00A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B15879283ECBBE00EC00A6 /* SceneDelegate.swift */; };
 		84B1587C283ECBBE00EC00A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1587B283ECBBE00EC00A6 /* ViewController.swift */; };
 		84B1587F283ECBBE00EC00A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B1587D283ECBBE00EC00A6 /* Main.storyboard */; };
 		84B15881283ECBBF00EC00A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B15880283ECBBF00EC00A6 /* Assets.xcassets */; };
 		84B15884283ECBBF00EC00A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B15882283ECBBF00EC00A6 /* LaunchScreen.storyboard */; };
+		84D7EC722843D9C70067938A /* MusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7EC712843D9C70067938A /* MusicCollectionViewCell.swift */; };
+		84D7EC782843F91C0067938A /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7EC772843F91C0067938A /* MusicViewController.swift */; };
+		84D7EC7A2843FBE40067938A /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7EC792843FBE40067938A /* BooksViewController.swift */; };
+		84D7EC7C2843FCA10067938A /* BooksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7EC7B2843FCA10067938A /* BooksCollectionViewCell.swift */; };
+		84DB6A5528498508000813FF /* DisplayNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB6A5428498508000813FF /* DisplayNoteViewController.swift */; };
+		84DB6A57284987A6000813FF /* CreateANoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB6A56284987A6000813FF /* CreateANoteViewController.swift */; };
+		84DB6B98285242AD000813FF /* book2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84DB6B97285242AD000813FF /* book2.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842F9451284653A600927D5F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84A7FB812847D25F0053A487 /* FunZone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FunZone.xcdatamodel; sourceTree = "<group>"; };
+		84A7FB832847D3700053A487 /* Music+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Music+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84A7FB842847D3700053A487 /* Music+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Music+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84A7FB852847D3700053A487 /* Notes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84A7FB862847D3700053A487 /* Notes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84A7FBEF28480F2D0053A487 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		84A7FBF1284826B20053A487 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		84A7FBF32848355F0053A487 /* BooksPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksPDFViewController.swift; sourceTree = "<group>"; };
+		84A7FBF62848378C0053A487 /* book2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = book2.pdf; path = ../../../../../Downloads/book2.pdf; sourceTree = "<group>"; };
+		84A7FBF82848379C0053A487 /* bookSample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = bookSample.pdf; path = ../../../../../Downloads/bookSample.pdf; sourceTree = "<group>"; };
+		84A7FBFA284837C10053A487 /* book3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = book3.pdf; path = ../../../../../Downloads/book3.pdf; sourceTree = "<group>"; };
+		84A7FBFC28483D540053A487 /* PlaySongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySongViewController.swift; sourceTree = "<group>"; };
+		84A7FBFF284848280053A487 /* blake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blake.mp3; path = ../../../../Downloads/blake.mp3; sourceTree = "<group>"; };
+		84A7FC01284855EE0053A487 /* SignUp+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUp+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84A7FC02284855EE0053A487 /* SignUp+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUp+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84A7FC052848565D0053A487 /* SignUpDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDBHelper.swift; sourceTree = "<group>"; };
 		84B15874283ECBBE00EC00A6 /* FunZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B15877283ECBBE00EC00A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B15879283ECBBE00EC00A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +65,13 @@
 		84B15880283ECBBF00EC00A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B15883283ECBBF00EC00A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B15885283ECBBF00EC00A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D7EC712843D9C70067938A /* MusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewCell.swift; sourceTree = "<group>"; };
+		84D7EC772843F91C0067938A /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		84D7EC792843FBE40067938A /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		84D7EC7B2843FCA10067938A /* BooksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksCollectionViewCell.swift; sourceTree = "<group>"; };
+		84DB6A5428498508000813FF /* DisplayNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNoteViewController.swift; sourceTree = "<group>"; };
+		84DB6A56284987A6000813FF /* CreateANoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateANoteViewController.swift; sourceTree = "<group>"; };
+		84DB6B97285242AD000813FF /* book2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = book2.pdf; path = ../../../../../Downloads/book2.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84A7FBF5284837490053A487 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				84DB6B97285242AD000813FF /* book2.pdf */,
+				84A7FBF82848379C0053A487 /* bookSample.pdf */,
+				84A7FBFA284837C10053A487 /* book3.pdf */,
+				84A7FBF62848378C0053A487 /* book2.pdf */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		84A7FBFE2848426D0053A487 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		84B1586B283ECBBE00EC00A6 = {
 			isa = PBXGroup;
 			children = (
+				84A7FC01284855EE0053A487 /* SignUp+CoreDataClass.swift */,
+				84A7FC02284855EE0053A487 /* SignUp+CoreDataProperties.swift */,
+				84A7FB832847D3700053A487 /* Music+CoreDataClass.swift */,
+				84A7FB842847D3700053A487 /* Music+CoreDataProperties.swift */,
+				84A7FB852847D3700053A487 /* Notes+CoreDataClass.swift */,
+				84A7FB862847D3700053A487 /* Notes+CoreDataProperties.swift */,
 				84B15876283ECBBE00EC00A6 /* FunZone */,
 				84B15875283ECBBE00EC00A6 /* Products */,
 			);
@@ -56,6 +128,9 @@
 		84B15876283ECBBE00EC00A6 /* FunZone */ = {
 			isa = PBXGroup;
 			children = (
+				84A7FBFF284848280053A487 /* blake.mp3 */,
+				84A7FBFE2848426D0053A487 /* Music */,
+				84A7FBF5284837490053A487 /* Books */,
 				84B15877283ECBBE00EC00A6 /* AppDelegate.swift */,
 				84B15879283ECBBE00EC00A6 /* SceneDelegate.swift */,
 				84B1587B283ECBBE00EC00A6 /* ViewController.swift */,
@@ -63,6 +138,19 @@
 				84B15880283ECBBF00EC00A6 /* Assets.xcassets */,
 				84B15882283ECBBF00EC00A6 /* LaunchScreen.storyboard */,
 				84B15885283ECBBF00EC00A6 /* Info.plist */,
+				84D7EC712843D9C70067938A /* MusicCollectionViewCell.swift */,
+				84D7EC772843F91C0067938A /* MusicViewController.swift */,
+				84D7EC792843FBE40067938A /* BooksViewController.swift */,
+				84D7EC7B2843FCA10067938A /* BooksCollectionViewCell.swift */,
+				842F9451284653A600927D5F /* LoginViewController.swift */,
+				84A7FB802847D25F0053A487 /* FunZone.xcdatamodeld */,
+				84A7FBEF28480F2D0053A487 /* SearchViewController.swift */,
+				84A7FBF1284826B20053A487 /* SignUpViewController.swift */,
+				84A7FBF32848355F0053A487 /* BooksPDFViewController.swift */,
+				84A7FBFC28483D540053A487 /* PlaySongViewController.swift */,
+				84A7FC052848565D0053A487 /* SignUpDBHelper.swift */,
+				84DB6A5428498508000813FF /* DisplayNoteViewController.swift */,
+				84DB6A56284987A6000813FF /* CreateANoteViewController.swift */,
 			);
 			path = FunZone;
 			sourceTree = "<group>";
@@ -126,8 +214,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B15884283ECBBF00EC00A6 /* LaunchScreen.storyboard in Resources */,
+				84A7FBF92848379C0053A487 /* bookSample.pdf in Resources */,
 				84B15881283ECBBF00EC00A6 /* Assets.xcassets in Resources */,
+				84A7FC00284848280053A487 /* blake.mp3 in Resources */,
+				84A7FBF72848378C0053A487 /* book2.pdf in Resources */,
 				84B1587F283ECBBE00EC00A6 /* Main.storyboard in Resources */,
+				84DB6B98285242AD000813FF /* book2.pdf in Resources */,
+				84A7FBFB284837C10053A487 /* book3.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +231,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A7FBF028480F2D0053A487 /* SearchViewController.swift in Sources */,
+				84A7FBFD28483D540053A487 /* PlaySongViewController.swift in Sources */,
+				842F9452284653A600927D5F /* LoginViewController.swift in Sources */,
+				84A7FB882847D3700053A487 /* Music+CoreDataProperties.swift in Sources */,
+				84A7FC062848565D0053A487 /* SignUpDBHelper.swift in Sources */,
+				84D7EC782843F91C0067938A /* MusicViewController.swift in Sources */,
+				84DB6A5528498508000813FF /* DisplayNoteViewController.swift in Sources */,
+				84A7FB8A2847D3700053A487 /* Notes+CoreDataProperties.swift in Sources */,
+				84D7EC722843D9C70067938A /* MusicCollectionViewCell.swift in Sources */,
 				84B1587C283ECBBE00EC00A6 /* ViewController.swift in Sources */,
 				84B15878283ECBBE00EC00A6 /* AppDelegate.swift in Sources */,
+				84DB6A57284987A6000813FF /* CreateANoteViewController.swift in Sources */,
+				84A7FC03284855EE0053A487 /* SignUp+CoreDataClass.swift in Sources */,
+				84A7FB822847D25F0053A487 /* FunZone.xcdatamodeld in Sources */,
+				84A7FC04284855EE0053A487 /* SignUp+CoreDataProperties.swift in Sources */,
+				84A7FBF42848355F0053A487 /* BooksPDFViewController.swift in Sources */,
+				84A7FBF2284826B20053A487 /* SignUpViewController.swift in Sources */,
+				84A7FB872847D3700053A487 /* Music+CoreDataClass.swift in Sources */,
+				84D7EC7C2843FCA10067938A /* BooksCollectionViewCell.swift in Sources */,
 				84B1587A283ECBBE00EC00A6 /* SceneDelegate.swift in Sources */,
+				84D7EC7A2843FBE40067938A /* BooksViewController.swift in Sources */,
+				84A7FB892847D3700053A487 /* Notes+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +468,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84A7FB802847D25F0053A487 /* FunZone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84A7FB812847D25F0053A487 /* FunZone.xcdatamodel */,
+			);
+			currentVersion = 84A7FB812847D25F0053A487 /* FunZone.xcdatamodel */;
+			path = FunZone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84B1586C283ECBBE00EC00A6 /* Project object */;
 }
